@@ -1,0 +1,33 @@
+{
+    "main_url": "http://182.92.109.35:8080",
+    "lists": [
+        {
+            "url": "/api/2/user/register",
+            "type": "post",
+            "params": {
+                "username": "username101",
+                "password": "123456",
+                "dev_identify": "IOS_TEST_1" 
+            }
+        },
+        {
+            "url": "/api/2/user/login",
+            "type": "post",
+            "params": {
+                "username": "username101",
+                "password": "123456",
+                "dev_identify": "IOS_TEST_1" 
+            }
+        },
+        {
+            "url": "/api/2/user/view/{uid}",
+            "type": "get",
+            "params": {}
+        },
+        {
+            "url":"/api/2/city/list",
+            "type":"get",
+            "params":{}
+        }
+    ]
+}

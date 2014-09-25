@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "description": "URL通用测试脚本",
+  "keywords": [],
+  "author": {
+    "name": "lijunliang",
+    "email": "junguoliang@163.com"
+  },
+  "dependencies": {
+    "request": "*",
+    "async": "*",
+    "tough-cookie": "~0.12.1"
+  }
+}
